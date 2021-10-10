@@ -8,7 +8,7 @@ import Signup from "./components/signup"
 function App(){
   return(
     <div>
-    <div className="fornt">
+    <div className="front">
       <h1>hi</h1>
       <Home/>
       <Signin/>
