@@ -1,1 +1,21 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+a{
+  color:black !important
+}
+.nav-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.nav-wrapper > .brand-logo{
+  display: block;
+  left: 0%;
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  margin-right: auto;
+}
+.align-right{
+  margin-left
+  : auto;
+}

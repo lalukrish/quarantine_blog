@@ -1,24 +1,49 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import M from "materialize-css"
+const NavBar = () =>{
+ return(
+   
 
-const NavBar =()=>{
-    return(
+    <div className="navbar-fixed">
+
     <nav>
-       
-             
-                <Link to="/">Home</Link>
-                <div className="center">
-                    <ul>
-                <Link to="/signup" >Signup</Link>
-                <Link to ="/signin" >Signin</Link>
-                </ul>
-               </div>
+        <div className="front_view">
+            <div className="nav-wrapper green">
+            <Link to="/" className="brand-logo center">HOME</Link>
+            <Link to="/" data-target="sidenav-list" className="sidenav-trigger right"><i className="material-icons">menu</i></Link>
+            <ul >
+            <li><Link to ="/signup">signup</Link> </li>
+            <li><Link to ="/signin">signin</Link> </li>
             
+        </ul>
        
+   </div>
+   </div>
+ </nav>
+ <ul id="sidenav-list" class="sidenav">
+ <li><Link to="/"><i class="material-icons">cloud</i>First Link With Icon</Link></li>
+    <li><a href="#!">Second Link</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+  </ul>
   
-    </nav>
 
-)
+
+<h1>{document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    M.Sidenav.init(elems, {});
+  })};
+</h1>
+
+
+ </div>
+ 
+
+ 
+     
+ );
 }
 
-    export default NavBar;
+export default NavBar;

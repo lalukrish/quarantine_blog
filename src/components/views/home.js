@@ -1,14 +1,8 @@
 import React from "react";
 
 const Home =()=>{
-return(
-   
-    <body>
-    <div class="container">
-     
-    </div>
-  </body>
-         
-)
+  return(
+    <h1>this is home</h1>
+  )
 }
 export default Home;

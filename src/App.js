@@ -11,8 +11,8 @@ function App(){
 
   return(
     <BrowserRouter>
-    <NavBar/>
-    <Route path="/">
+    <NavBar/>  
+    <Route exact path="/">
       <Home/>
     </Route>
     <Route path="/signin">
@@ -21,7 +21,6 @@ function App(){
       <Route path="/signup">
       <Signup/>
       </Route>
-    <NavBar/>  
     </BrowserRouter>
    
   )
