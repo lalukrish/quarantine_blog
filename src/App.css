@@ -7,6 +7,7 @@ a{
 .nav-wrapper {
   display: flex;
   justify-content: flex-start;
+  
 }
 .nav-wrapper > .brand-logo{
   display: block;
@@ -19,3 +20,12 @@ a{
   margin-left
   : auto;
 }
+.mycard{
+  margin-top: 30px;
+ }
+ .auth_card{
+   padding: 20px; 
+   text-align: center;
+   max-width: 400px; 
+   margin: 30px auto;
+ }

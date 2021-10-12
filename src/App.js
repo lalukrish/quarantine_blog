@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar";
 import Home from './components/views/home'
 import Signin from "./components/views/signin";
 import Signup from "./components/views/signup"
+import Createpost from "./components/views/createpost";
 
 
 function App(){
@@ -21,6 +22,9 @@ function App(){
       <Route path="/signup">
       <Signup/>
       </Route>
+      <Route path="/createpost">
+        <Createpost/>
+        </Route>
     </BrowserRouter>
    
   )
