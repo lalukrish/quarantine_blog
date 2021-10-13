@@ -7,7 +7,7 @@ const { MONGOURI } = require('./keys');
 app.use(express.json())
 mongoose.connect(MONGOURI)
 mongoose.connection.on('connected',()=>{
-    console.log('mongoose connected');
+    console.log('mongoose connected..!');
 })
 mongoose.connection.on('error',(err)=>{
     console.log(err);
