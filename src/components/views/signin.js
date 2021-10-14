@@ -9,7 +9,7 @@ const Signin=()=>{
   const [email, setEmail] = useState(" ");
   const postData = () => {
    
-     fetch("/signup", {
+     fetch("/signin", {
        method: "post",
        headers: {
          "Content-Type": "application/json",
