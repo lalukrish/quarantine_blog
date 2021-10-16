@@ -31,43 +31,43 @@ const Createpost =()=>{
 
           }).catch(err=>{console.log(err)})
       }
-    return(
-      <div className="mycard">
-      <div className="card auth_card"
-      
+      return (
+        <div
+          className="card input field"
+          style={{
+            margin: "30px auto",
+            maxWidth: "500px",
+            padding: "20px",
+            textAlign: "center",
+          }}
+        >
+          <input
+            type="text"
+            placeholder="title"
+            value={title}
+            onChange={(e) => setTitle(e.target.value)}
+          />
+          <input
+            type="text"
+            placeholder="body"
+            value={body}
+            onChange={(e) => setBody(e.target.value)}
+          />
+          <div class="file-field input-field">
+            <div className="btn #2196f3 blue darken">
+              <span>Upload image</span>
+              <input type="file" onChange={(e) => setPhoto(e.target.files[0  ])} />
+            </div>
+            <div class="file-path-wrapper">
+              <input class="file-path validate" type="text" />
+            </div>
+          </div>
+          <button className="btn #2196f3 blue" onClick={() => postData()}>
+            Submit Post
+          </button>
+        </div>
+      );
+    };
     
-        style={{
-          margin:"30px Auto",
-          maxWidth: "500 px",
-          padding:"200px",
-          textAlign:"cetnter",
-        }}>
-        
-        <input type="text" placeholder="title" value={title} onChange={(e)=>setTitle(e.target.value)} ></input>
-        <input type="text" placeholder="body" value={body} onChange={(e)=>setBody(e.target.value)} ></input>
-        
-  
-  <div class="file-field input-field">
-        
-    <div class="btn">
-      <span>File</span>
-      <div class="file-path-wrapper">
-   
-      <input class="file-path validate" type="text"  ></input>
-      <input type="file"  ></input>
-      </div>
-    </div>
-    
-      <div>
-      
-    </div>
-  </div>
-  </div>
-  </div>
-
-
-  
-    )
-}
 
 export default Createpost;
