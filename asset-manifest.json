@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/quarantine_blog/static/css/main.24fa3c83.chunk.css",
+    "main.js": "/quarantine_blog/static/js/main.c3a0e355.chunk.js",
+    "main.js.map": "/quarantine_blog/static/js/main.c3a0e355.chunk.js.map",
+    "runtime-main.js": "/quarantine_blog/static/js/runtime-main.914a4d1f.js",
+    "runtime-main.js.map": "/quarantine_blog/static/js/runtime-main.914a4d1f.js.map",
+    "static/js/2.a6b19cb2.chunk.js": "/quarantine_blog/static/js/2.a6b19cb2.chunk.js",
+    "static/js/2.a6b19cb2.chunk.js.map": "/quarantine_blog/static/js/2.a6b19cb2.chunk.js.map",
+    "static/js/3.8d13a2ac.chunk.js": "/quarantine_blog/static/js/3.8d13a2ac.chunk.js",
+    "static/js/3.8d13a2ac.chunk.js.map": "/quarantine_blog/static/js/3.8d13a2ac.chunk.js.map",
+    "index.html": "/quarantine_blog/index.html",
+    "static/css/main.24fa3c83.chunk.css.map": "/quarantine_blog/static/css/main.24fa3c83.chunk.css.map",
+    "static/js/2.a6b19cb2.chunk.js.LICENSE.txt": "/quarantine_blog/static/js/2.a6b19cb2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.914a4d1f.js",
+    "static/js/2.a6b19cb2.chunk.js",
+    "static/css/main.24fa3c83.chunk.css",
+    "static/js/main.c3a0e355.chunk.js"
+  ]
+}
